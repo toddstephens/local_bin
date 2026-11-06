@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Description: Generate a uuid
+
+cat /proc/sys/kernel/random/uuid

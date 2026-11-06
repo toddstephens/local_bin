@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Description: Make a line of text all uppercase
+
+read -r line
+echo "${line^^}"
+

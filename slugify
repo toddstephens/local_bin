@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Description: Convert text to a URL slug
+
+read -r line
+line="${line,,}"
+line="${line//[^a-z0-9]/-}"
+
+# Note: the '^' means negated because it is in brackets
+
+line="${line//--/-}"
+echo "${line#-}"
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Description: Insert today's date
+
+date +%Y-%m-%d

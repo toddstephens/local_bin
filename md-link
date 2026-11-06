@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Description: Convert a URL to markdown link format
+
+read -r url
+echo "[$url]($url)"
